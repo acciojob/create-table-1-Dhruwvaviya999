@@ -1,6 +1,5 @@
 function insert_Row() {
     //Write your code here
-	function insert_Row() {
     // Get the table element by its ID
     const table = document.getElementById("sampleTable");
 
@@ -14,6 +13,5 @@ function insert_Row() {
     // Add content to the cells
     cell1.innerHTML = "New Cell1";
     cell2.innerHTML = "New Cell2";
-}
 
 }
