@@ -8,8 +8,8 @@ function insert_Row() {
 	tableHead2.innerHTML = "New Cell2";
 	
 	let tableRow = document.createElement("tr");
-	tableRow.appendChild(tableHead2);
 	tableRow.appendChild(tableHead1);
+	tableRow.appendChild(tableHead2);
 	
 
 	table.prepend(tableRow);
